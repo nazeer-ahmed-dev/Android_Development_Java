@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         {
             Choc= "Yes";
         }
-        txt1.setText("Add Whipped cream ? "+cream+"\n"+" Addchocolate? "+Choc+"\n"+" Quantity : "+c+"\n");
+        txt1.setText("Add Whipped cream ? "+cream+"\n"+" Addchocolate? "+Choc+"\n"+" Quantity : "+c+"\n\n"+"Price "+(c*9));
+
     }
 }
