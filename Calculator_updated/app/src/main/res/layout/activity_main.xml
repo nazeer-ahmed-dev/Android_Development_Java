@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:columnCount="4"
+    android:onClick="onClick"
     android:rowCount="6"
     tools:context=".MainActivity">
 
@@ -49,6 +50,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="%"
         app:backgroundTint="#009688" />
 
@@ -62,6 +64,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="/"
         app:backgroundTint="#009688" />
 
@@ -75,6 +78,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="7"
         app:backgroundTint="#009688" />
 
@@ -88,6 +92,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="8"
         app:backgroundTint="#009688" />
 
@@ -101,6 +106,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="9"
         app:backgroundTint="#009688" />
 
@@ -114,6 +120,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="x"
         app:backgroundTint="#009688" />
 
@@ -127,6 +134,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="4"
         app:backgroundTint="#009688" />
 
@@ -140,6 +148,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="5"
         app:backgroundTint="#009688" />
 
@@ -153,6 +162,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="6"
         app:backgroundTint="#009688" />
 
@@ -166,6 +176,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="-"
         app:backgroundTint="#009688" />
 
@@ -179,6 +190,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="1"
         app:backgroundTint="#009688" />
 
@@ -192,6 +204,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="2"
         app:backgroundTint="#009688" />
 
@@ -205,6 +218,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="3"
         app:backgroundTint="#009688" />
 
@@ -218,6 +232,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="+"
         app:backgroundTint="#009688" />
 
@@ -232,6 +247,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="toCalculate"
         android:text="="
         app:backgroundTint="#009688" />
 
@@ -246,6 +262,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
+        android:onClick="onClick"
         android:text="0"
         app:backgroundTint="#F44336" />
 
