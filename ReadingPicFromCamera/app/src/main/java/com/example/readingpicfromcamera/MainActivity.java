@@ -7,6 +7,7 @@ import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -52,11 +53,10 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode==code && resultCode==RESULT_OK)
         {
-            if(requestCode==code && resultCode==RESULT_OK)
-            {
+
                 Bitmap bmp = (Bitmap) data.getExtras().get("data");
                 img.setImageBitmap(bmp);
-            }
+
         }
     }
 }

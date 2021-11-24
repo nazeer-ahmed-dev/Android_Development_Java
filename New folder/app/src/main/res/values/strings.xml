@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practise</string>
+    <string-array name="array">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+
+    </string-array>
+</resources>

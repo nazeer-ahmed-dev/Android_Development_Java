@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="clickme" android:id="@+id/id1" app:showAsAction="ifRoom"/>
+    <item android:title="clickme1" android:id="@+id/id2" app:showAsAction="ifRoom"/>
+    <item android:title="clickme2" android:id="@+id/id3" app:showAsAction="ifRoom"/>
+
+</menu>

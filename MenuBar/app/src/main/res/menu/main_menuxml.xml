@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/id1" android:title="Search" app:showAsAction="never"/>
+<item android:id="@+id/id2" android:title="Upload" app:showAsAction="never"/>
+<item android:id="@+id/id3" android:title="Copy" app:showAsAction="never"/>
+</menu>

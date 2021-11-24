@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void New(View view)
     {
+        editText1.setText("YOU HAVE TOTAL CHACES 7");
         btn.setEnabled(true);
         img.setImageResource(R.drawable.one);
         counter=0;
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                     btn.setEnabled(false);
 
                 }
-                editText1.setText("Your Remaining Chance "+(6-counter));
+                editText1.setText("Your Remaining Chance "+(5-counter));
                 counter++;
 
             }
