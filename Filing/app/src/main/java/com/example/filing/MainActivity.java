@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         {
             ex.printStackTrace();
         }
+
     }
     public void onClick(View view)
     {
@@ -56,9 +57,13 @@ public class MainActivity extends AppCompatActivity {
         {
             ex.printStackTrace();
         }
+    }
+    public void ReadExternalStorage(View view)
+    {
 
+    }
+    public void WriteExternalStorage(View view)
+    {
 
-        //Toast.makeText(this, file.toString(), Toast.LENGTH_SHORT).show();
-      //Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
     }
 }
