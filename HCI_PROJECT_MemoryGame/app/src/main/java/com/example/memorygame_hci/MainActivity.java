@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void SignIn(View View)
     {
-
+        Intent intent = new Intent(this,MainActivity3.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_left);
 
     }
     public void Regester(View view)
