@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
         PendingIntent pendingIntent = PendingIntent.getBroadcast(this,1234,myRecieverIntent,0);
 
         alarmManager.set(AlarmManager.RTC_WAKEUP,100,pendingIntent);
-x
+        alarmManager.set(AlarmManager.REALTI);
     }
 }

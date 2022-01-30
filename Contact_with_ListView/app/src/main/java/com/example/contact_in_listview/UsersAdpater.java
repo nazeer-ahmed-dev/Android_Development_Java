@@ -12,12 +12,15 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class UsersAdpater extends ArrayAdapter<person> {
+
+
     public UsersAdpater(Context context, ArrayList<person> users)
     {
         super(context,0,users);
     }
     public View getView(int position, View convertView, ViewGroup parent)
     {
+
         person user = getItem(position);
         if(convertView==null)
         {

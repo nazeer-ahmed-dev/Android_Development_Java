@@ -45,6 +45,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="showTopCard"
+            android:tag="1"
             app:srcCompat="@drawable/back_cover" />
 
         <ImageView
@@ -52,6 +54,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="showTopCard"
+            android:tag="2"
             app:srcCompat="@drawable/back_cover" />
 
         <ImageView
@@ -59,6 +63,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="showTopCard"
+            android:tag="3"
             app:srcCompat="@drawable/back_cover" />
 
         <ImageView
@@ -66,6 +72,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="showTopCard"
+            android:tag="4"
             app:srcCompat="@drawable/back_cover" />
 
         <ImageView
@@ -73,6 +81,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="showTopCard"
+            android:tag="5"
             app:srcCompat="@drawable/back_cover" />
     </LinearLayout>
 
@@ -92,6 +102,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="showTopCard"
+            android:tag="6"
             app:srcCompat="@drawable/back_cover" />
 
         <ImageView
@@ -99,6 +111,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="showTopCard"
+            android:tag="7"
             app:srcCompat="@drawable/back_cover" />
 
         <ImageView
@@ -106,6 +120,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="showTopCard"
+            android:tag="8"
             app:srcCompat="@drawable/back_cover" />
 
         <ImageView
@@ -113,6 +129,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="showTopCard"
+            android:tag="9"
             app:srcCompat="@drawable/back_cover" />
 
         <ImageView
@@ -120,6 +138,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="showTopCard"
+            android:tag="10"
             app:srcCompat="@drawable/back_cover" />
     </LinearLayout>
 
@@ -127,20 +147,11 @@
         android:id="@+id/imageView12"
         android:layout_width="71dp"
         android:layout_height="97dp"
-        android:layout_marginStart="88dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:srcCompat="@drawable/back_cover" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="71dp"
-        android:layout_height="97dp"
-        android:layout_marginEnd="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.354"
         app:srcCompat="@drawable/back_cover" />
 
     <LinearLayout
