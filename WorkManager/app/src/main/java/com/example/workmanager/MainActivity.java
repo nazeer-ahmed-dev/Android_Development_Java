@@ -21,9 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Step2 : Work request : one time or periodic request
-
         WorkRequest oneTimeRequest = new OneTimeWorkRequest.Builder(UploadWorker.class).build();
-
         WorkManager workManager = WorkManager.getInstance(this);
         workManager.enqueue(oneTimeRequest);     // enqueue  or uniqueenqueue
     }
@@ -31,10 +29,8 @@ public class MainActivity extends AppCompatActivity {
     {
         //1- create SensorManger
         SensorManager sm = (SensorManager) getSystemService(SENSOR_SERVICE);
-
         //2- Creae a Sesnor
         Sensor lighSensor = sm.getDefaultSensor(Sensor.TYPE_LIGHT);
-
         //3.1 Regester Sensor
         sm.registerListener(new LightListener(),lighSensor,300);
 
